@@ -11,7 +11,7 @@ import openai
 import base64
 from PIL import Image
 
-openai.api_key = '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'
+openai.api_key = 'ENTER_KEY'
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
